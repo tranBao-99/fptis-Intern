@@ -1,0 +1,95 @@
+.Record {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Lato;
+    font-style: normal;
+    font-size: 14px;
+    background-color: #ffff;
+    margin-left: 36px;
+    margin-right: 30px;
+}
+
+.Record__checkbox {
+    height: 14px;
+    width: 15.77px;
+    margin-left: 57.43px;
+    margin-top: 30px;
+}
+
+.Record__id {
+    width: 104.73px;
+    height: 21px;
+    margin-top: 45px;
+    margin-left: 41.75px;
+}
+
+.Record__name {
+    display: flex;
+    flex-direction: column;
+    width: 323.83px;
+    height: 43px;
+
+    margin-top: 30px;
+    margin-left: 95.14px;
+}
+
+.Record__depart {
+    display: flex;
+    flex-direction: column;
+    width: 323.83px;
+    height: 43px;
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+.Record__date {
+    margin-left: -25px;
+    margin-top: 42px;
+    width: 76px;
+    height: 21px;
+}
+.Record__note {
+    margin-left: 73px;
+    margin-top: 42px;
+    width: 129px;
+    height: 21px;
+}
+
+.Record__type {
+    margin-left: 55px;
+    margin-top: 42px;
+    width: 129px;
+    height: 21px;
+}
+
+.Record__total {
+    margin-left: 70px;
+    margin-top: 42px;
+    width: 72px;
+    height: 21px;
+}
+
+.Record__action {
+    margin-left: 10px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.Record__action__btn_view {
+    width: 22.52px;
+    height: 14px;
+    margin-right: 11.26px;
+}
+
+.Record__action__btn_update {
+    width: 20.27px;
+    height: 18px;
+    margin-right: 11.26px;
+}
+
+.Record__action__btn_delete {
+    width: 18.02px;
+    height: 20px;
+    margin-right: 11.26px;
+}

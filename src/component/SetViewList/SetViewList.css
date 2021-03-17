@@ -1,0 +1,107 @@
+.SetViewList {
+    width: 1768px;
+    height: 86px;
+    margin-left: 36px;
+    margin-top: 30px;
+    background-color: #ffff;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.SetViewList__title {
+    font-size: 22px;
+    margin-left: 27.03px;
+    width: 150.9px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.SetViewList__action {
+    margin-left: 783.79px;
+    margin-top: 31px;
+    width: 58.56px;
+    height: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #013ffb;
+}
+.SetViewList__list {
+    width: 270.27px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 12.39px;
+    background: #ffffff;
+    border: 1px solid #f2f2f2;
+    border-radius: 7px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #333333;
+}
+
+.SetViewList__btn_left {
+    width: 20px;
+    height: 20px;
+    margin-left: 61.52px;
+    border: none;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+}
+
+.SetViewList__btn_num {
+    width: 36px;
+    height: 36px;
+    margin-left: 8px;
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+    display: inline-block;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.SetViewList__btn_right {
+    width: 20px;
+    height: 20px;
+    margin-left: 31px;
+    border: none;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+}
+
+.SetViewList__line {
+    width: 16px;
+    height: 32px;
+    margin-left: 8px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #013ffb;
+}
+
+.SetViewList__listOfNum {
+    margin: auto 44.22px auto 26.34px;
+    width: 56px;
+    height: 32px;
+    background: #fafafc;
+    border-radius: 7px;
+    border: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #4f4f4f;
+}

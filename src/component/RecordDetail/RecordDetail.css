@@ -1,0 +1,88 @@
+.RecordDetail {
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    width: 1300px;
+    height: auto;
+    display: flex;
+    background-color: #d9b6e2;
+    border-radius: 10px;
+    box-shadow: 5px 10px rgb(228, 215, 231);
+}
+.RecordDetail__area {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.RecordDetail__data {
+    display: flex;
+    flex-direction: row;
+    margin-left: 36px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.RecordDetail__label {
+    margin-right: 10px;
+    width: 150px;
+    text-align: left;
+    color: #013ffb;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    height: 36px;
+}
+.RecordDetail__input {
+    width: 300px;
+    height: 36px;
+    border-radius: 7px;
+    border: none;
+    background: #fff;
+    margin-top: 0px;
+}
+
+.RecordDetail__textArea {
+    width: 400px;
+    height: 250px;
+    background: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+.AddRecordFrom__action {
+    display: flex;
+    flex-direction: row;
+}
+
+.RecordDetail__btn_add {
+    width: 112px;
+    height: 36px;
+    background: linear-gradient(180deg, #013ffb 0%, #a295f2 100%);
+    border-radius: 7px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+    border: none;
+    display: block;
+    margin-left: 30%;
+}
+
+.RecordDetail__btn_close {
+    width: 112px;
+    height: 36px;
+    background: linear-gradient(180deg, #013ffb 0%, #a295f2 100%);
+    border-radius: 7px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+    border: none;
+    display: block;
+    margin-left: 10%;
+}

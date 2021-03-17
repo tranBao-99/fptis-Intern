@@ -1,0 +1,100 @@
+.SearchArea {
+    background-color: #ffff;
+    display: flex;
+    flex-direction: row;
+    width: 1768px;
+    height: 128px;
+    box-shadow: 0px 4px 4px rgba(216, 216, 216, 0.04);
+    border-radius: 7px;
+    margin-left: 36px;
+}
+
+.SearchArea__title_1 {
+    margin-left: 27.03px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #4f4f4f;
+}
+
+.SearchArea__form__input {
+    width: 819.81px;
+    height: 36px;
+    margin-left: 27.03px;
+    border-radius: 7px;
+    border: none;
+    background: #fafafc;
+    margin-top: 0px;
+}
+
+.SearchArea__form__input::placeholder {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #8e90a6;
+}
+
+.SearchArea__title_2 {
+    margin-top: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 29.28px;
+}
+
+.SearchArea__btn_cancel {
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    margin: 50px 0px 28px 31.55px;
+    width: 75px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: #013ffb;
+    background-color: #fff;
+    border-top: 3px solid #0742fa;
+    border-bottom: 3px solid #9c92f2;
+    background-image: linear-gradient(#0742fa, #9c92f2), linear-gradient(#0742fa, #9c92f2);
+    background-size: 3px 100%;
+    background-position: 0 0, 100% 0;
+    background-repeat: no-repeat;
+}
+
+.SearchArea__btn_fillter {
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 40px;
+    margin: 50px 0px 28px 29.28px;
+    width: 45.04px;
+    background: url("https://cdn4.iconfinder.com/data/icons/navigation-40/24/chevron-force-down-128.png") no-repeat left
+        center transparent;
+    background-size: 100% 100%;
+    color: #0742fa;
+    border: none;
+    opacity: 0.7;
+}
+
+.SearchArea__btn_search {
+    display: inline-block;
+    border-radius: 7px;
+    height: 40px;
+    margin: 50px 39.98px 28px auto;
+    width: 96px;
+    background: linear-gradient(180deg, #013ffb 0%, #a295f2 100%);
+    color: white;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}

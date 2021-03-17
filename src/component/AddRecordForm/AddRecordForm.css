@@ -1,0 +1,85 @@
+.AddRecordForm {
+    display: flex;
+    flex-direction: row;
+    width: 1500px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 36px;
+    background-color: #89b4d6;
+    border-radius: 15px;
+}
+.AddRecordForm__area {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.AddRecordForm__data {
+    display: flex;
+    flex-direction: row;
+    margin-left: 36px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.AddRecordForm__label {
+    margin-right: 10px;
+    width: 150px;
+    text-align: left;
+    color: #013ffb;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    height: 36px;
+}
+.AddRecordForm__input {
+    width: 300px;
+    height: 36px;
+    border-radius: 7px;
+    border: none;
+    background: #fff;
+    margin-top: 0px;
+}
+
+.AddRecordForm__textArea {
+    width: 400px;
+    height: 250px;
+    background: #fff;
+}
+
+.AddRecordFrom__action {
+    display: flex;
+    flex-direction: row;
+}
+
+.AddRecordForm__btn_add {
+    width: 112px;
+    height: 36px;
+    background: linear-gradient(180deg, #013ffb 0%, #a295f2 100%);
+    border-radius: 7px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+    border: none;
+    display: block;
+    margin-left: 30%;
+}
+
+.AddRecordForm__btn_close {
+    width: 112px;
+    height: 36px;
+    background: linear-gradient(180deg, #013ffb 0%, #a295f2 100%);
+    border-radius: 7px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+    border: none;
+    display: block;
+    margin-left: 10%;
+}

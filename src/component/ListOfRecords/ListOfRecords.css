@@ -1,0 +1,88 @@
+.ListOfRecords {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.ListOfRecords__title {
+    width: 1768px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #013ffb;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.ListOfRecords__title__checkbox {
+    height: 14px;
+    width: 15.77px;
+    margin-left: 93.43px;
+}
+
+.ListOfRecords__title__id {
+    margin-left: 29.8px;
+    width: 71px;
+    height: 18px;
+    margin-top: 12px;
+}
+
+.ListOfRecords__title__name {
+    margin-left: 144px;
+    width: 90px;
+    height: 18px;
+    margin-top: 12px;
+}
+
+.ListOfRecords__title__department {
+    margin-left: 204px;
+    width: 81px;
+    height: 18px;
+    margin-top: 12px;
+}
+
+.ListOfRecords__title__date {
+    margin-left: 213px;
+    width: 84px;
+    height: 18px;
+    margin-top: 12px;
+}
+
+.ListOfRecords__title__note {
+    margin-left: 64px;
+    width: 36px;
+    height: 18px;
+    margin-top: 12px;
+}
+
+.ListOfRecords__title__type {
+    margin-left: 152px;
+    width: 78px;
+    height: 18px;
+    margin-top: 12px;
+}
+
+.ListOfRecords__title__state {
+    margin-left: 82px;
+    width: 65px;
+    height: 18px;
+    margin-top: 12px;
+}
+
+.ListOfRecords__title__total {
+    margin-left: 82px;
+    width: 68px;
+    height: 18px;
+    margin-top: 12px;
+}
+
+.ListOfRecords__title__action {
+    margin-left: 52px;
+    width: 55px;
+    height: 18px;
+    margin-top: 12px;
+}

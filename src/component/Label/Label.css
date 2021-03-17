@@ -1,0 +1,26 @@
+.Label {
+    border-radius: 8px;
+    width: 98px;
+    height: 36px;
+    margin-top: 18px;
+    margin-left: 12px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    line-height: 10px;
+}
+.Label--Shipped {
+    background: linear-gradient(0deg, rgba(94, 129, 244, 0.1), rgba(94, 129, 244, 0.1)), #ffffff;
+    color: #2f80ed;
+}
+.Label--Cancelled {
+    background: linear-gradient(0deg, rgba(255, 128, 139, 0.1), rgba(255, 128, 139, 0.1)), #ffffff;
+    color: #eb5757;
+}
+
+.Label--Processing {
+    background: linear-gradient(0deg, rgba(244, 190, 94, 0.1), rgba(244, 190, 94, 0.1)), #ffffff;
+    color: #f2c94c;
+}
